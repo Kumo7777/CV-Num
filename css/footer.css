@@ -1,0 +1,33 @@
+footer{
+    position: static;
+    bottom : 0px;
+    background-color : black;
+    height : 80px;
+    text-align : center;
+    align-items : center;
+    display : flex;
+    justify-content : center;
+
+    color : white;
+    width : 100%;
+    padding:12px;
+    margin-top:auto;
+    clear:both;
+}
+
+.footer-container{
+    display : flex;
+    width : 80%;
+}
+
+.footer-item{
+    background-color : gray;
+    width : 20px;
+    gap : 15%;
+    flex-grow : 3;
+}
+
+footer a{
+    color : red;
+    text-decoration : none;
+}

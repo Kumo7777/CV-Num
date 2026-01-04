@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div h1{
+    text-align: left;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:70px;
+}
+
+div p{
+    text-align: left;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main section{
+    text-align: center;
+    background-color:rgba(256, 256, 256, 0.7);
+    border-radius: 15px;
+    padding:10px;
+}
+
+main h2{
+    text-align: center;
+}
+
+*{box-sizing:border-box}
+
+.gif-bg{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    background: url("../Images/fond.gif") center center;
+    background-size:cover;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin : 0%;
+    padding : 0%;
+    display:flex;
+    min-height:100vh;
+    flex-direction:column;
+}
+
+body pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    flex:1;
+    padding:24px;
+}
+
+.name{
+    display:flex;
+    gap:20px;
+    align-items:left ;
+    justify-content:center;
+    background:#ddd;
+    padding:20px;
+    border-radius:8px
+}
+
+.name img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+}
+.name .banner-text h1{
+    font-size:2.2rem;
+    margin:0
+}
+.name .intro-small{
+    margin-top:6px;color:#333
+}
+
+
+.pres{
+    max-width:100%;
+    margin:10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    text-align: justify;
+    justify-content: center;
+    background-color:rgba(256, 256, 256, 0.7);
+    border-radius: 15px;
+    padding:10px;
+}
+
+.pres img{
+    width:auto;
+    height:200px;
+    object-fit:contain;
+    flex:0 0 auto;
+}
+
+/* Projets */
+
+.container{
+    max-width:1100px;
+    margin:0 auto;
+    width : 100%;
+    background:#ddd;
+    padding:50px;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.container h2{
+    font-size:2.5rem;
+    font-weight: bolder;
+}
+
+.formation {
+   background:#f3f3f3;
+   padding:16px;
+   border-radius:10px;
+   margin-bottom:18px;
+   box-shadow:0 2px 6px rgba(0,0,0,0.1);
+   transition:transform .2s ease;
+   text-align: justify;
+}
+
+.formation:hover{
+    transform: scale(1.01);
+}
+
+.formation img{
+    max-width:120px;
+    height:auto;
+}
+
+.competences div{
+    display: flex;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+
+.project {
+   background:white;
+   padding:16px;
+   border-radius:10px;
+   margin-bottom:18px;
+   box-shadow:0 2px 6px rgba(0,0,0,0.1);
+   transition:transform .2s ease;
+    text-align: justify;
+}
+
+.project:hover{
+    transform: scale(1.01);
+}
+
+.project img{
+    max-width:400px;
+    height:auto;
+}
+
+
+
+/* Experiences */
+
+.container-experiences{
+    width : 100%;
+    margin:0 auto;
+    max-width:1100px;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.container-experiences h1{
+    font-size: xxx-large;
+    font-weight: bolder;
+}
